@@ -8,5 +8,16 @@ const shortArray = [];
 
 for (let i = 0; i < 100; i++) {
     longArray.push(Math.floor(Math.random() * 1000));
-    console.log(longArray[i]);
 }
+
+for (let i = 0; i < 50; i++) {
+    shortArray.push(Math.floor(Math.random() * 1000));
+}
+
+while (shortArray.length < longArray.length) {
+    shortArray.push(Math.floor(Math.random() * 1000));
+}
+
+console.log(longArray.length);
+console.log(shortArray.length);
+
