@@ -22,5 +22,23 @@ while (isNaN(inputNumbers)) {
 console.log(sum);
 */
 
-// ---------- versione con for ---------- //
+// ---------- versione con while ---------- //
 
+let inputNumbers;
+
+let sum = 0;
+
+let i = 0;
+
+while (i < 5) {
+    inputNumbers = parseInt(prompt('Inserisci un numero'));
+
+    if (!isNaN(inputNumbers)) {
+        i++;
+        sum = sum + inputNumbers;
+    } else {
+        alert('Inserisci solo numeri, non lettere')
+    }
+
+}
+console.log(sum);
