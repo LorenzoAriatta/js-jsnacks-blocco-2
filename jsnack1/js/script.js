@@ -9,7 +9,7 @@ arrNumeri.length;
 
 somma = 0;
 
-for (let i = 0; i < arrNumeri.length; i = i + 2) {
+for (let i = 1; i < arrNumeri.length; i = i + 2) {
     console.log(arrNumeri[i])
     somma = somma + arrNumeri[i];
 }
