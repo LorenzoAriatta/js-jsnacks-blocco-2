@@ -5,10 +5,22 @@ console.log('JS OK!');
 // Esegui questo programma in due versioni, con for e con while
 
 
-let userNumbers;
+/*
+let inputNumbers;
 
-sum = 0;
+let sum = 0;
 
-for (let i = 0; 1 <= 5; i++) {
-    userNumbers = parseInt(prompt('Inserisci un numero'));
+while (isNaN(inputNumbers)) {
+
+    for (let i = 0; i < 5; i++) {
+        inputNumbers = parseInt(prompt('Inserisci un numero'));
+        console.log(inputNumbers);
+        sum = sum + inputNumbers;
+    }
+
 }
+console.log(sum);
+*/
+
+// ---------- versione con for ---------- //
+
